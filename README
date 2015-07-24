@@ -1,19 +1,190 @@
-/* 
-     This file is part of the Savionic gMS Trainer.
-    Copyright (C) 2011 Tyler Coderre <admin@TylerCode.com> 
+The source for Savionic has been released under the GNU Affero General Public License.
 
-    This program is free software: you can redistribute it and/or modify 
-    it under the terms of the GNU Affero General Public License as 
-    published by the Free Software Foundation version 3 as published by 
-    the Free Software Foundation. You may not use, modify or distribute 
-    this program under any other version of the GNU Affero General Public 
-    License. 
- 
-    This program is distributed in the hope that it will be useful, 
-    but WITHOUT ANY WARRANTY; without even the implied warranty of 
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
-    GNU Affero General Public License for more details. 
- 
-    You should have received a copy of the GNU Affero General Public License 
-    along with this program.  If not, see <http://www.gnu.org/licenses/>. 
-*/
+
+The last thread that ended it all is located here: 
+http://www.gamekiller.net/old-and-detected-hacks-ms-/172785-gms-v96-2-savionic-final-updated-4-6-11-a.html
+
+Below you will find the contents of that post, excluding any hyperlinks, for the sake of archiving.
+
+
+Hello, GameKiller.
+I just wanted to give out a final release before a period of inactivity occurs.
+
+
+CREDITS: 
+Blaze - Being there to support me and remind me not to give up <3
+Acceleration - Auto CC function
+Franc[e]sco - He helped me out tremendously!
+Cryptiik - Helping me realize that a method I was using was patched.
+ClericX - Helped me with a few things.
+Goomba - Helped me with a few things.
+m1sniper - m1Tubi and m1UA among other things.
+Waffle - MMC
+anthony__ - for Perm Siege, Fast Teleport, Endless Flame, as well as the Platform check.
+joshilaw - for his IRM mp3.ini
+SoulRez - for Ghost DC Information
+NameTheWorld(Pluse) - Map DC Packet
+Creation - Wild Hunter Summoning Packets. :P
+Kuraudo - For Pet Enh, Potential and Rank scripts - and for being awesome. :D
+Cam1596 - creating some of the scripts I currently use.
+If I forgotten anyone in the credits, please let me know!
+
+THIS DOES NEED A Bypass! (click here)
+
+Download Savionic FINAL: (v96.2)
+Savionic FINAL - Localhostr
+
+Savionic FINAL - MegaUpload
+Savionic FINAL - MediaFire
+
+
+
+Virus Scan of Savionic FINAL:
+Virus Scan - Jotti.org 
+Virus Scan - Virustotal.com
+
+
+COMMON ERRORS:
+If you are receiving any error relating to a MSVCR.dll File, please look below:
+Code:
+Make sure you have the following two components installed:
+• Download details: Microsoft Visual C++ 2010 Redistributable Package (x86)
+• Download details: Microsoft .NET Framework 4
+Are you getting "Successful Injection" with hInjector and the trainer isn't showing up?? 
+Are you getting "SOMETHING'S WRONG" with Winject?
+LOOK BELOW!
+Code:
+• Make sure you use the correct shortcut. Right click on your shortcut of MapleStory, click on Properties. Make sure this is inside of the target box
+"C:\Nexon\MapleStory\MapleStory.exe GameLaunching" (No quotations)
+• Make sure the file you are using is not being blocked (Right click on the file and go to properties. If there is a button saying "Unblock", press it.)
+• Make sure you are running it as an admnistrator! (Windows Vista+) 
+• Download this (Click here) and extract it to the following folders: C:\Windows\System32, C:\Windows\SysWOW64, C:\Nexon\MapleStory
+•Use hInjector!
+FEATURES!
+Code:
+- Changeable Keys
+- Customizable Delays
+- Auto Pot
+- Auto Bot
+- Four different types of Auto CC (People, Attack, Timed or Item)
+- Different types of Godmode
+- Common botting hacks (No KB, Anti Breath, UA, etc)
+- Many different Misc. hacks
+- Teleport to a custom X,Y Coordinates
+- Built-in Injector
+- Pointer and Offset Information (General information: HP, MP, Map ID, Char XY, etc)
+- MANY different kinds of packets! USER FRIENDLY!
+- Built-in Packet Sender ( Supports ** Randomization )
+- Revive upon Death!
+- Trainer Information form that will tell you everything you need to know!
+- Mouse Click Teleport
+- SSFly (Might AB!)
+- Perm. Siege mode
+- Fast Teleport
+- Endless Flamethrower
+- Some of the scripts released by m1sniper
+- WH Summon Packets
+- It's Raining Mines (Level Customization!)
+- Teleport Loop
+- Autoloot if items >= x amount
+- Autoattack if mobs >= x amount
+- MMC (With Adjustable X,Y Coords!)
+- Instant Drop
+- Block Damage Godmode
+- MP3 IRM
+- Ghost DC  (Currently disabled)
+- Map DC
+- Kill MapleStory after x time
+- Item Filter
+- Enable Disabled Buttons
+- CS Mouse Fly
+- No Mob KB
+- Stop Aran Attack Movement
+- Multiple Line Packet Spammer
+- Hide/Show MapleStory button
+- Anti Death
+- Show Potential
+- Show Rank
+- Pet Equip Enhancement
+- Disable Platform Check for: Flash Jump, Combat Step, Mech Dash, Soul Rush
+- Davids Tubi and UA have been added.
+- Added Custom Meso Dropper (Drop any amount of meso from 10-50000)
+- Added a "Last Packet Sent:" Box, so you can see which packet what button sends!
+- Added a generic Decimal to Hex converter in the Misc. Form!
+-
+Here is sort of a READ ME, as it contains the Trainer Information:
+Code:
+Everything you need to know about Savionic FINAL:
+Automated Features:
+HP - Value based                    MP - Value based
+Auto Skill 1- Seconds             Auto Skill 2 - Seconds
+Auto Attack - Miliseconds   Auto Loot - Miliseconds
+
+How to: Auto Loot when &gt;= Items
+It will not loot until there are x amount of items on the map. Once the count has been reached, it will loot.
+
+How to: Auto Attack when &gt;= Mobs.
+You will continuously attack until the number you specified is greater or equal to the amount of mobs currently on the map.
+
+How to: Fast Teleport
+Lowers the time you have to wait between teleports.
+Don't teleport too fast or else you will disconnect, and possibly be ABed.
+
+How to: Perm. Seige mode
+Stand in a spot you want to use it at, and check it. You will be in that mode until you untick it.
+(Requires third job Mechanic with a point in Seige mode)
+
+How to: Tornado Buff
+Once enabled, whenever you buff yourself, a tornado will surround you!
+
+Information on Revive Upon Death:
+If revived 3 times in a short ammount of time, MapleStory will crash.
+Do not revive more than 3 times within three or four seconds.
+
+How to: Teleport to Perion Free Market
+1) Spam click the "Perion FM" button for a few seconds.
+2) Your screen should go black
+3) You should then be in Perion FM
+
+How to: Mushy Timer Reset
+1) Stand in the center of your Mushy Store [Exact Center!]
+2) Enter your store and press the "Mushy Reset" button
+3) A blue popup up will appear. Press Okay.
+4) Leave your store and reenter. Your time will reset to 23:59
+
+How to: Morph Godmode (No A/B Godmode)
+1) Input the number '9' into the textBox. 
+2) Tick the checkbox. You should then appear to be a Doll. 
+3) Unchecking the checkbox will revert you back to regular.
+
+How to: It's Raining Mines
+(NOTE: A Wild Hunter atleast level 30 is REQUIRED!)
+1) Input the level of your IRM Skill.
+2) Set the delay you want. (This is like the "Act as group" function.  Recommended is 50 ms to 400 ms. 
+(This depends on your computer, increase the delay to stop lagging)
+3) Tick the checkbox for the map you are in.
+
+How to: MMC
+1) Input the coordinates you wish to use.
+2) Tick MMC.
+3) All the monsters will go to the coordinates you specified, as if you attacked them.
+
+How to: Ghost DC (Credits to SoulRez!)
+Getting the uID.
+1) You need a packet logger for this. Open it up. Hook Send.
+2) Double click your target, and a packet should popup (0070), expand it.
+3) The packet should have two 00's at the end, copy the 3 bytes before them (do NOT copy any of the 00s), the uID looks like: xx xx xx.
+4) Now an actual uID looks like this: BF 63 34 (random uID)
+5) Input the uID and the Delay you want. (100 is recommended)
+6) Click "Start Disconnecting!"
+
+How to: Map DC
+1) Set your Delay
+2) Click "Start Disconnecting!"
+
+NOTICE ABOUT CERTAIN HACKS:
+-Memedit Unlimited Attack has been known to AB if you do not change channels quickly enough!
+-It is suggested to use CSEAX Unlimited Attack instead!
+-Any of the MISC. Hacks will disconnect you if abused or left on too long.
+-MMC will make all monsters fly/walk to the coords selected, as if you attacked them.
+-Any Teleporting: Doing it at a fast rate will autoban you!
