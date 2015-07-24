@@ -1,6 +1,6 @@
 /* 
      This file is part of the Savionic gMS Trainer.
-    Copyright (C) 2011 Tyler Coderre <Tyler1q1q@gmail.com> 
+    Copyright (C) 2011 Tyler Coderre <admin@TylerCode.com> 
 
     This program is free software: you can redistribute it and/or modify 
     it under the terms of the GNU Affero General Public License as 
